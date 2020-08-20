@@ -31,9 +31,7 @@ const uploadSchema = new Schema({
 
 const UploadEntry = mongoose.model('uploadEntry', uploadSchema);
 
-module.exports = {
-  UploadEntry,
-};
+module.exports = UploadEntry;
 
 /*
 MONGOOSE NOTES:
