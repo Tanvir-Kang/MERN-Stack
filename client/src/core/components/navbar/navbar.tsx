@@ -23,7 +23,6 @@ export const NavBar = () => {
               <Nav.Link href="#deets">About</Nav.Link>
               <Nav.Link href="#deets">FAQ</Nav.Link>
               <Nav.Link href="#deets">Contact</Nav.Link>
-              <Nav.Link eventKey={2} href="#memes">Dank memes </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
