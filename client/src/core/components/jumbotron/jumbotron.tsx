@@ -19,7 +19,7 @@ export const JumbotronBanner = (props: Props) => {
         <h3>{props.jumbotronText}</h3>
         </Col>
         <Col>
-          <Button variant="dark">View Services</Button>
+          <Button variant="dark">View Gallery</Button>
           </Col>
           </Row>
       </Container>
