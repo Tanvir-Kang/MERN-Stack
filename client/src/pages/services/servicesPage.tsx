@@ -1,6 +1,5 @@
 import React from 'react';
-import { NavBar } from '../../core/components/navbar/navbar';
-import { Footer } from '../../core/components/footer/footer';
+
 import { CardItem, ICardProps } from '../../core/components/cards/cards';
 
 var serviceList: ICardProps[] = [
@@ -16,9 +15,7 @@ export const Services = () => {
 
   return (
     <>
-      <NavBar />
       <CardItem services={serviceList}/>
-    <Footer/>
     </>
   )
 }

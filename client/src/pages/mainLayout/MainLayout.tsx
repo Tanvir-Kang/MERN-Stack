@@ -23,11 +23,11 @@ export const MainLayoutPage = () => {
 
   return (
     <>
-      <NavBar />
+      
       <CarouselSlider imageList={carouselImages} />
       <JumbotronBanner jumbotronText={text} />
       <ServiceBanner listOfService={services} />
-      <Footer />
+     
     </>
   );
 }
