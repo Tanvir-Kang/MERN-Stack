@@ -19,10 +19,10 @@ export const NavBar = () => {
             <Nav className="ml-auto">
               <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/services">Services</Nav.Link>
-              <Nav.Link href="#deets">Gallery</Nav.Link>
-              <Nav.Link href="#deets">About</Nav.Link>
-              <Nav.Link href="#deets">FAQ</Nav.Link>
-              <Nav.Link href="#deets">Contact</Nav.Link>
+              <Nav.Link href="/gallery">Gallery</Nav.Link>
+              <Nav.Link href="/about">About</Nav.Link>
+              <Nav.Link href="/faq">FAQ</Nav.Link>
+              <Nav.Link href="/contact">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
