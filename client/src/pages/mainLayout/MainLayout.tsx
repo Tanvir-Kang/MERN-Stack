@@ -6,13 +6,13 @@ import { JumbotronBanner } from '../../core/components/jumbotron/jumbotron';
 import carouselImageOne from "../../images/IMG_2751.jpeg";
 import carouselImageTwo from "../../images/IMG_3071.jpeg";
 import carouselImageThree from "../../images/IMG_3961.jpeg";
-import { serviceItem, ServiceBanner } from '../../core/components/serviceBanner/serviceBanner';
+import { ServiceItem, ServiceBanner } from '../../core/components/serviceBanner/serviceBanner';
 
 
 
 const text = "Providing high quality home and mobile based automotive detailing services in Surrey, British columbia"
 const carouselImages = [carouselImageOne, carouselImageTwo, carouselImageThree];
-var services: serviceItem[] = [
+var services: ServiceItem[] = [
   { title: "Exterior", description: "Wash, wax, wheels, trim restoration and more" },
   { title: "Interior", description: "Carpet and fabric shampooing, steam cleaning, glass super cleaning, and leather conditioning" },
   { title: "Paint Correction", description: "Paint enhancements to bring back shine, and one step corrections for paint defects such as swirl marks" },
@@ -22,12 +22,10 @@ var services: serviceItem[] = [
 export const MainLayoutPage = () => {
 
   return (
-    <>
-      
+    <div id="bootStrapOverride-background">
       <CarouselSlider imageList={carouselImages} />
       <JumbotronBanner jumbotronText={text} />
       <ServiceBanner listOfService={services} />
-     
-    </>
+    </div>
   );
 }

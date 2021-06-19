@@ -8,20 +8,19 @@ import styles from './Styles'
 import Nav from 'react-bootstrap/Nav'
 
 interface Props {
-  jumbotronText : String
+  jumbotronText : string
 }
 
 export const JumbotronBanner = (props: Props) => {
   return (
-    <Jumbotron fluid style={styles.containerPadding}>
+    <Jumbotron fluid style={styles.containerPadding} id="bootStrapOverride-background">
       <Container>
         <Row>
         <Col  xs={10} sm={10} md={10} lg={10} xl={10}>
-        <h3>{props.jumbotronText}</h3>
+        <h3 id="bootStrapOverride-text">{props.jumbotronText}</h3>
         </Col>
           <Col>
-            <Nav.Link href="/services"><Button variant="dark">View Gallery</Button></Nav.Link>
-          
+            <Nav.Link href="/services"><Button id="bootStrapOverride-redButton">View Gallery</Button></Nav.Link>
           </Col>
           </Row>
       </Container>

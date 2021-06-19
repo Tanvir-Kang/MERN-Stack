@@ -15,8 +15,8 @@ export const Footer = () => {
         </Row>
         <Row className='text-center'>
           <Col>
-            <AiFillFacebook style={{ fontSize: '40px' }}></AiFillFacebook>
-            <AiFillInstagram style={{ fontSize: '40px' }}></AiFillInstagram>
+            <AiFillFacebook id="bootStrapOverride-socials" style={{ fontSize: '40px' }}></AiFillFacebook>
+            <AiFillInstagram id="bootStrapOverride-socials" style={{ fontSize: '40px' }}></AiFillInstagram>
           </Col>
         </Row>
         <Row className='text-center'>
@@ -27,17 +27,15 @@ export const Footer = () => {
         </Row>
         <Row className='text-center'>
           <Col>
-            <p>Tanvir Kang</p>
-            <p>778-245-8367</p>
-            <p>tanvir.kang1@gmail.com</p>
-            <p>Surrey, BC</p>
+            <p>Matt Gelies</p>
+            <p>(604)-360-9813</p>
             <hr />
           </Col>
            
         </Row>
         <Row className='text-center'>
           <Col>
-          <h5>&copy; Blue Whale Detail</h5>
+          <h5>&copy; SUPREME SHINE AUTO DETAILING</h5>
           </Col>
         </Row>
       </Container>

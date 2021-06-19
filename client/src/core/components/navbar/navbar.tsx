@@ -4,15 +4,14 @@ import Nav from 'react-bootstrap/Nav'
 import Container from 'react-bootstrap/Container'
 import Image from 'react-bootstrap/Image'
 import styles from './Style'
-import logo from '../../../images/BWD_NavLogo.png'
+import logo from '../../../images/logo.jpg';
 
 export const NavBar = () => {
 
   return (
     <>
       <Container fluid style={styles.NavContainer}>
-        <Navbar collapseOnSelect expand="lg" bg="light" variant="light" sticky='top'>
-          
+        <Navbar collapseOnSelect expand="lg" id="bootStrapOverride-navbar" sticky='top'>
           <Navbar.Brand href="#home"><Image src={logo} fluid ></Image></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
@@ -26,10 +25,7 @@ export const NavBar = () => {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-
       </Container>
-
-
     </>
   );
 }
