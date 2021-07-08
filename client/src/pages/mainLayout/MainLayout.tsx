@@ -10,13 +10,13 @@ import { ServiceItem, ServiceBanner } from '../../core/components/serviceBanner/
 
 
 
-const text = "Providing high quality home and mobile based automotive detailing services in Surrey, British columbia"
+const text = "Providing high quality home and mobile based automotive detailing services in the Lower Mainland"
 const carouselImages = [carouselImageOne, carouselImageTwo, carouselImageThree];
 var services: ServiceItem[] = [
   { title: "Exterior", description: "Wash, wax, wheels, trim restoration and more" },
   { title: "Interior", description: "Carpet and fabric shampooing, steam cleaning, glass super cleaning, and leather conditioning" },
   { title: "Paint Correction", description: "Paint enhancements to bring back shine, and one step corrections for paint defects such as swirl marks" },
-  { title: "Other", description: "Engine bay detailing, paint transfer removal, and much more" }
+  { title: "Extras", description: "Engine bay detailing, paint transfer removal, and much more" }
 ]
 
 export const MainLayoutPage = () => {

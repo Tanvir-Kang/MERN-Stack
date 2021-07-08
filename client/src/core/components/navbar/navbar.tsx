@@ -13,15 +13,15 @@ export const NavBar = () => {
       <Container fluid style={styles.NavContainer}>
         <Navbar collapseOnSelect expand="lg" id="bootStrapOverride-navbar" sticky='top'>
           <Navbar.Brand href="#home"><Image src={logo} fluid ></Image></Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" id="bootStrapOverride-navbar-toggle"/>
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="ml-auto">
-              <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/services">Services</Nav.Link>
-              <Nav.Link href="/gallery">Gallery</Nav.Link>
-              <Nav.Link href="/about">About</Nav.Link>
-              <Nav.Link href="/faq">FAQ</Nav.Link>
-              <Nav.Link href="/contact">Contact</Nav.Link>
+            <Nav className="ml-auto" id="bootStrapOverride-navbar-text">
+              <Nav.Link id="bootStrapOverride-navbar-text" href="/">Home</Nav.Link>
+              <Nav.Link id="bootStrapOverride-navbar-text" href="/services">Services</Nav.Link>
+              <Nav.Link id="bootStrapOverride-navbar-text" href="/gallery">Gallery</Nav.Link>
+              <Nav.Link id="bootStrapOverride-navbar-text" href="/about">About</Nav.Link>
+              <Nav.Link id="bootStrapOverride-navbar-text" href="/faq">FAQ</Nav.Link>
+              <Nav.Link id="bootStrapOverride-navbar-text" href="/contact">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

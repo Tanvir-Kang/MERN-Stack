@@ -6,7 +6,7 @@ import { AiFillFacebook, AiFillInstagram } from 'react-icons/ai';
 
 export const Footer = () => {
   return (
-    <footer>
+    <footer id="bootStrapOverride-footer">
       <Container fluid>
         <Row className='text-center'>
           <Col>
@@ -21,7 +21,7 @@ export const Footer = () => {
         </Row>
         <Row className='text-center'>
           <Col>
-            <hr />
+            <hr id="bootStrapOverride-footer-hr" />
             <h4>Contact</h4>
           </Col>
         </Row>
@@ -29,7 +29,7 @@ export const Footer = () => {
           <Col>
             <p>Matt Gelies</p>
             <p>(604)-360-9813</p>
-            <hr />
+            <hr id="bootStrapOverride-footer-hr" />
           </Col>
            
         </Row>

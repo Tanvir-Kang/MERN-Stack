@@ -27,7 +27,7 @@ export const ServiceBanner = (props: AllServices) => {
       ))}
       </Row>
       <Row>
-        <Button id="bootStrapOverride-redButton">View Services</Button>
+        <Button id="bootStrapOverride-serviceBanner-redButton">View Services</Button>
       </Row>
    </Container>
   )
