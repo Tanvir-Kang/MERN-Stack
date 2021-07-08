@@ -1,25 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { MainLayoutPage } from "./pages/mainLayout/MainLayout";
+import { Services } from './pages/services/servicesPage';
+import { Gallery } from './pages/gallery/gallery'
+import { BrowserRouter, Route } from 'react-router-dom';
+import { NavBar } from './core/components/navbar/navbar';
+import { Footer } from './core/components/footer/footer';
+import { httpService, IHttpService } from './core/httpService';
+
+const HTTPService = new httpService();
+const GalleryPage = Gallery(HTTPService);
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div>
+        <NavBar />
+        <Route exact path='/' component={MainLayoutPage} />
+        <Route exact path='/services' component={Services} />
+        <Route exact path='/gallery'  component={Gallery} />
+        <Footer />
+      </div>
+    </BrowserRouter>
+
+
   );
 }
 

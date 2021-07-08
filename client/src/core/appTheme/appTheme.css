@@ -1,0 +1,43 @@
+#bootStrapOverride-background{
+    background-color: black;
+}
+
+#bootStrapOverride-redButton{
+    background-color: red;
+    border-color: black;
+    color: white;
+}
+#bootStrapOverride-serviceBanner-redButton{
+    background-color: red;
+    border-color: black;
+    color: white;
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
+#bootStrapOverride-socials{
+    color: rgb(255, 255, 255);
+}
+#bootStrapOverride-navbar{
+    background-color: black;
+    color: red;
+}
+#bootStrapOverride-text{
+    color: white;
+}
+#bootStrapOverride-footer{
+    background-color: black;
+    color: white;
+}
+#bootStrapOverride-footer-hr{
+    border-top: 0.05em solid red;
+}
+#bootStrapOverride-navbar-text{
+    color:white;
+}
+#bootStrapOverride-navbar-toggle{
+    color:white;
+    border: 0.05em solid red;
+    background-color: white;
+}
+
+
